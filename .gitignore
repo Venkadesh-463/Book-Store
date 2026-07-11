@@ -1,0 +1,23 @@
+# Ignore runtime log files
+/logs/*.log
+!/logs/.gitkeep
+
+# Ignore IDE/editor settings
+/.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore PHPStorm caches
+/.vscode/
+
+# Ignore npm/node_modules if added later
+/node_modules/
+
+# Ignore general logs
+*.log
